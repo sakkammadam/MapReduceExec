@@ -1,0 +1,893 @@
+Kicking off MapReduce operations...
+Operation: input
+"/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Love'sLabourLost.txt"
+"/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Winter'sTale.txt"
+"/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheMerchantOfVenice.txt"
+"/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTwoGentlemenOfVerona.txt"
+"/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheComedyOfErrors.txt"
+"/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/MeasureForMeasure.txt"
+"/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/MuchAdoAboutNothing.txt"
+"/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/All'sWellThatEndsWell.txt"
+"/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/AMidSummerNightsDream.txt"
+"/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TamingOfTheShrew.txt"
+"/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/AsYouLIkeIte.txt"
+"/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Cymbeline.txt"
+"/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/PericlesPrinceOfTyre.txt"
+"/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheMerryWivesOfWindsor.txt"
+"/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTempest.txt"
+"/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTwelthNight.txt"
+"/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TroilusAndCressida .txt"
+The file /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Love'sLabourLost.txt has 4145 lines.
+Properties for /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Love'sLabourLost.txt
+Number of lines: 4145
+Number of lines per partition: 500
+NUmber of partitions per file: 9
+The file /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Winter'sTale.txt has 4347 lines.
+Properties for /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Winter'sTale.txt
+Number of lines: 4347
+Number of lines per partition: 500
+NUmber of partitions per file: 9
+The file /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheMerchantOfVenice.txt has 3555 lines.
+Properties for /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheMerchantOfVenice.txt
+Number of lines: 3555
+Number of lines per partition: 500
+NUmber of partitions per file: 8
+The file /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTwoGentlemenOfVerona.txt has 3316 lines.
+Properties for /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTwoGentlemenOfVerona.txt
+Number of lines: 3316
+Number of lines per partition: 500
+NUmber of partitions per file: 7
+The file /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheComedyOfErrors.txt has 2678 lines.
+Properties for /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheComedyOfErrors.txt
+Number of lines: 2678
+Number of lines per partition: 500
+NUmber of partitions per file: 6
+The file /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/MeasureForMeasure.txt has 4037 lines.
+Properties for /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/MeasureForMeasure.txt
+Number of lines: 4037
+Number of lines per partition: 500
+NUmber of partitions per file: 9
+The file /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/MuchAdoAboutNothing.txt has 3786 lines.
+Properties for /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/MuchAdoAboutNothing.txt
+Number of lines: 3786
+Number of lines per partition: 500
+NUmber of partitions per file: 8
+The file /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/All'sWellThatEndsWell.txt has 4046 lines.
+Properties for /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/All'sWellThatEndsWell.txt
+Number of lines: 4046
+Number of lines per partition: 500
+NUmber of partitions per file: 9
+The file /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/AMidSummerNightsDream.txt has 2932 lines.
+Properties for /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/AMidSummerNightsDream.txt
+Number of lines: 2932
+Number of lines per partition: 500
+NUmber of partitions per file: 6
+The file /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TamingOfTheShrew.txt has 3854 lines.
+Properties for /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TamingOfTheShrew.txt
+Number of lines: 3854
+Number of lines per partition: 500
+NUmber of partitions per file: 8
+The file /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/AsYouLIkeIte.txt has 3659 lines.
+Properties for /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/AsYouLIkeIte.txt
+Number of lines: 3659
+Number of lines per partition: 500
+NUmber of partitions per file: 8
+The file /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Cymbeline.txt has 4846 lines.
+Properties for /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Cymbeline.txt
+Number of lines: 4846
+Number of lines per partition: 500
+NUmber of partitions per file: 10
+The file /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/PericlesPrinceOfTyre.txt has 3431 lines.
+Properties for /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/PericlesPrinceOfTyre.txt
+Number of lines: 3431
+Number of lines per partition: 500
+NUmber of partitions per file: 7
+The file /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheMerryWivesOfWindsor.txt has 4046 lines.
+Properties for /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheMerryWivesOfWindsor.txt
+Number of lines: 4046
+Number of lines per partition: 500
+NUmber of partitions per file: 9
+The file /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTempest.txt has 3160 lines.
+Properties for /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTempest.txt
+Number of lines: 3160
+Number of lines per partition: 500
+NUmber of partitions per file: 7
+The file /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTwelthNight.txt has 3717 lines.
+Properties for /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTwelthNight.txt
+Number of lines: 3717
+Number of lines per partition: 500
+NUmber of partitions per file: 8
+The file /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TroilusAndCressida .txt has 5047 lines.
+Properties for /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TroilusAndCressida .txt
+Number of lines: 5047
+Number of lines per partition: 500
+NUmber of partitions per file: 11
+Checking fileinputs..
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/AMidSummerNightsDream.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/All'sWellThatEndsWell.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/AsYouLIkeIte.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Cymbeline.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Love'sLabourLost.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/MeasureForMeasure.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/MuchAdoAboutNothing.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/PericlesPrinceOfTyre.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TamingOfTheShrew.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheComedyOfErrors.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheMerchantOfVenice.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheMerryWivesOfWindsor.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTempest.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTwelthNight.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTwoGentlemenOfVerona.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TroilusAndCressida .txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Winter'sTale.txt
+seeing if input made it ..
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/AMidSummerNightsDream.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/All'sWellThatEndsWell.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/AsYouLIkeIte.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Cymbeline.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Love'sLabourLost.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/MeasureForMeasure.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/MuchAdoAboutNothing.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/PericlesPrinceOfTyre.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TamingOfTheShrew.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheComedyOfErrors.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheMerchantOfVenice.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheMerryWivesOfWindsor.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTempest.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTwelthNight.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTwoGentlemenOfVerona.txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TroilusAndCressida .txt
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Winter'sTale.txt
+Mapping data from: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/AMidSummerNightsDream.txt
+The data has 6 partitions.
+Partition#0 has 500 records
+Partition#1 has 500 records
+Partition#2 has 500 records
+Partition#3 has 500 records
+Partition#4 has 500 records
+Partition#5 has 432 records
+Mapping data from: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/All'sWellThatEndsWell.txt
+The data has 9 partitions.
+Partition#0 has 500 records
+Partition#1 has 500 records
+Partition#2 has 500 records
+Partition#3 has 500 records
+Partition#4 has 500 records
+Partition#5 has 500 records
+Partition#6 has 500 records
+Partition#7 has 500 records
+Partition#8 has 46 records
+Mapping data from: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/AsYouLIkeIte.txt
+The data has 8 partitions.
+Partition#0 has 500 records
+Partition#1 has 500 records
+Partition#2 has 500 records
+Partition#3 has 500 records
+Partition#4 has 500 records
+Partition#5 has 500 records
+Partition#6 has 500 records
+Partition#7 has 159 records
+Mapping data from: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Cymbeline.txt
+The data has 10 partitions.
+Partition#0 has 500 records
+Partition#1 has 500 records
+Partition#2 has 500 records
+Partition#3 has 500 records
+Partition#4 has 500 records
+Partition#5 has 500 records
+Partition#6 has 500 records
+Partition#7 has 500 records
+Partition#8 has 500 records
+Partition#9 has 346 records
+Mapping data from: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Love'sLabourLost.txt
+The data has 9 partitions.
+Partition#0 has 500 records
+Partition#1 has 500 records
+Partition#2 has 500 records
+Partition#3 has 500 records
+Partition#4 has 500 records
+Partition#5 has 500 records
+Partition#6 has 500 records
+Partition#7 has 500 records
+Partition#8 has 145 records
+Mapping data from: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/MeasureForMeasure.txt
+The data has 9 partitions.
+Partition#0 has 500 records
+Partition#1 has 500 records
+Partition#2 has 500 records
+Partition#3 has 500 records
+Partition#4 has 500 records
+Partition#5 has 500 records
+Partition#6 has 500 records
+Partition#7 has 500 records
+Partition#8 has 37 records
+Mapping data from: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/MuchAdoAboutNothing.txt
+The data has 8 partitions.
+Partition#0 has 500 records
+Partition#1 has 500 records
+Partition#2 has 500 records
+Partition#3 has 500 records
+Partition#4 has 500 records
+Partition#5 has 500 records
+Partition#6 has 500 records
+Partition#7 has 286 records
+Mapping data from: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/PericlesPrinceOfTyre.txt
+The data has 7 partitions.
+Partition#0 has 500 records
+Partition#1 has 500 records
+Partition#2 has 500 records
+Partition#3 has 500 records
+Partition#4 has 500 records
+Partition#5 has 500 records
+Partition#6 has 431 records
+Mapping data from: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TamingOfTheShrew.txt
+The data has 8 partitions.
+Partition#0 has 500 records
+Partition#1 has 500 records
+Partition#2 has 500 records
+Partition#3 has 500 records
+Partition#4 has 500 records
+Partition#5 has 500 records
+Partition#6 has 500 records
+Partition#7 has 354 records
+Mapping data from: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheComedyOfErrors.txt
+The data has 6 partitions.
+Partition#0 has 500 records
+Partition#1 has 500 records
+Partition#2 has 500 records
+Partition#3 has 500 records
+Partition#4 has 500 records
+Partition#5 has 178 records
+Mapping data from: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheMerchantOfVenice.txt
+The data has 8 partitions.
+Partition#0 has 500 records
+Partition#1 has 500 records
+Partition#2 has 500 records
+Partition#3 has 500 records
+Partition#4 has 500 records
+Partition#5 has 500 records
+Partition#6 has 500 records
+Partition#7 has 55 records
+Mapping data from: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheMerryWivesOfWindsor.txt
+The data has 9 partitions.
+Partition#0 has 500 records
+Partition#1 has 500 records
+Partition#2 has 500 records
+Partition#3 has 500 records
+Partition#4 has 500 records
+Partition#5 has 500 records
+Partition#6 has 500 records
+Partition#7 has 500 records
+Partition#8 has 46 records
+Mapping data from: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTempest.txt
+The data has 7 partitions.
+Partition#0 has 500 records
+Partition#1 has 500 records
+Partition#2 has 500 records
+Partition#3 has 500 records
+Partition#4 has 500 records
+Partition#5 has 500 records
+Partition#6 has 160 records
+Mapping data from: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTwelthNight.txt
+The data has 8 partitions.
+Partition#0 has 500 records
+Partition#1 has 500 records
+Partition#2 has 500 records
+Partition#3 has 500 records
+Partition#4 has 500 records
+Partition#5 has 500 records
+Partition#6 has 500 records
+Partition#7 has 217 records
+Mapping data from: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTwoGentlemenOfVerona.txt
+The data has 7 partitions.
+Partition#0 has 500 records
+Partition#1 has 500 records
+Partition#2 has 500 records
+Partition#3 has 500 records
+Partition#4 has 500 records
+Partition#5 has 500 records
+Partition#6 has 316 records
+Mapping data from: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TroilusAndCressida .txt
+The data has 11 partitions.
+Partition#0 has 500 records
+Partition#1 has 500 records
+Partition#2 has 500 records
+Partition#3 has 500 records
+Partition#4 has 500 records
+Partition#5 has 500 records
+Partition#6 has 500 records
+Partition#7 has 500 records
+Partition#8 has 500 records
+Partition#9 has 500 records
+Partition#10 has 47 records
+Mapping data from: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Winter'sTale.txt
+The data has 9 partitions.
+Partition#0 has 500 records
+Partition#1 has 500 records
+Partition#2 has 500 records
+Partition#3 has 500 records
+Partition#4 has 500 records
+Partition#5 has 500 records
+Partition#6 has 500 records
+Partition#7 has 500 records
+Partition#8 has 347 records
+checking mapper ...
+WTF
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/AMidSummerNightsDream.txt
+WTF
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/All'sWellThatEndsWell.txt
+WTF
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/AsYouLIkeIte.txt
+WTF
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Cymbeline.txt
+WTF
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Love'sLabourLost.txt
+WTF
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/MeasureForMeasure.txt
+WTF
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/MuchAdoAboutNothing.txt
+WTF
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/PericlesPrinceOfTyre.txt
+WTF
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TamingOfTheShrew.txt
+WTF
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheComedyOfErrors.txt
+WTF
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheMerchantOfVenice.txt
+WTF
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheMerryWivesOfWindsor.txt
+WTF
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTempest.txt
+WTF
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTwelthNight.txt
+WTF
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTwoGentlemenOfVerona.txt
+WTF
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TroilusAndCressida .txt
+WTF
+/home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Winter'sTale.txt
+Operation: mapper
+Proceeding to write Mapper data output to file system....
+Operating on Mapper output from /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/AMidSummerNightsDream.txt
+Originating directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/
+Creating a temp directory to host mapper output: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/AMidSummerNightsDream.txt/
+Created the mapper directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/AMidSummerNightsDream.txt/
+Operating on Mapper output from /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/All'sWellThatEndsWell.txt
+Originating directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/
+Creating a temp directory to host mapper output: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/All'sWellThatEndsWell.txt/
+Created the mapper directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/All'sWellThatEndsWell.txt/
+Operating on Mapper output from /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/AsYouLIkeIte.txt
+Originating directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/
+Creating a temp directory to host mapper output: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/AsYouLIkeIte.txt/
+Created the mapper directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/AsYouLIkeIte.txt/
+Operating on Mapper output from /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Cymbeline.txt
+Originating directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/
+Creating a temp directory to host mapper output: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Cymbeline.txt/
+Created the mapper directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Cymbeline.txt/
+Operating on Mapper output from /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Love'sLabourLost.txt
+Originating directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/
+Creating a temp directory to host mapper output: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Love'sLabourLost.txt/
+Created the mapper directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Love'sLabourLost.txt/
+Operating on Mapper output from /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/MeasureForMeasure.txt
+Originating directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/
+Creating a temp directory to host mapper output: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MeasureForMeasure.txt/
+Created the mapper directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MeasureForMeasure.txt/
+Operating on Mapper output from /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/MuchAdoAboutNothing.txt
+Originating directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/
+Creating a temp directory to host mapper output: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MuchAdoAboutNothing.txt/
+Created the mapper directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MuchAdoAboutNothing.txt/
+Operating on Mapper output from /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/PericlesPrinceOfTyre.txt
+Originating directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/
+Creating a temp directory to host mapper output: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/PericlesPrinceOfTyre.txt/
+Created the mapper directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/PericlesPrinceOfTyre.txt/
+Operating on Mapper output from /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TamingOfTheShrew.txt
+Originating directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/
+Creating a temp directory to host mapper output: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TamingOfTheShrew.txt/
+Created the mapper directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TamingOfTheShrew.txt/
+Operating on Mapper output from /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheComedyOfErrors.txt
+Originating directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/
+Creating a temp directory to host mapper output: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheComedyOfErrors.txt/
+Created the mapper directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheComedyOfErrors.txt/
+Operating on Mapper output from /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheMerchantOfVenice.txt
+Originating directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/
+Creating a temp directory to host mapper output: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerchantOfVenice.txt/
+Created the mapper directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerchantOfVenice.txt/
+Operating on Mapper output from /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheMerryWivesOfWindsor.txt
+Originating directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/
+Creating a temp directory to host mapper output: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerryWivesOfWindsor.txt/
+Created the mapper directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerryWivesOfWindsor.txt/
+Operating on Mapper output from /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTempest.txt
+Originating directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/
+Creating a temp directory to host mapper output: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTempest.txt/
+Created the mapper directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTempest.txt/
+Operating on Mapper output from /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTwelthNight.txt
+Originating directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/
+Creating a temp directory to host mapper output: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwelthNight.txt/
+Created the mapper directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwelthNight.txt/
+Operating on Mapper output from /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TheTwoGentlemenOfVerona.txt
+Originating directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/
+Creating a temp directory to host mapper output: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwoGentlemenOfVerona.txt/
+Created the mapper directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwoGentlemenOfVerona.txt/
+Operating on Mapper output from /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/TroilusAndCressida .txt
+Originating directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/
+Creating a temp directory to host mapper output: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TroilusAndCressida .txt/
+Created the mapper directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TroilusAndCressida .txt/
+Operating on Mapper output from /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/Winter'sTale.txt
+Originating directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/
+Creating a temp directory to host mapper output: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Winter'sTale.txt/
+Created the mapper directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Winter'sTale.txt/
+Mapper results have been written to: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Love'sLabourLost.txt/Love'sLabourLost.txt.7
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Love'sLabourLost.txt/Love'sLabourLost.txt.3
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Love'sLabourLost.txt/Love'sLabourLost.txt.4
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Love'sLabourLost.txt/Love'sLabourLost.txt.0
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Love'sLabourLost.txt/Love'sLabourLost.txt.8
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Love'sLabourLost.txt/Love'sLabourLost.txt.6
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Love'sLabourLost.txt/Love'sLabourLost.txt.5
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Love'sLabourLost.txt/Love'sLabourLost.txt.2
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Love'sLabourLost.txt/Love'sLabourLost.txt.1
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Winter'sTale.txt/Winter'sTale.txt.5
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Winter'sTale.txt/Winter'sTale.txt.6
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Winter'sTale.txt/Winter'sTale.txt.8
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Winter'sTale.txt/Winter'sTale.txt.4
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Winter'sTale.txt/Winter'sTale.txt.1
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Winter'sTale.txt/Winter'sTale.txt.3
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Winter'sTale.txt/Winter'sTale.txt.0
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Winter'sTale.txt/Winter'sTale.txt.2
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Winter'sTale.txt/Winter'sTale.txt.7
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerchantOfVenice.txt/TheMerchantOfVenice.txt.2
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerchantOfVenice.txt/TheMerchantOfVenice.txt.1
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerchantOfVenice.txt/TheMerchantOfVenice.txt.6
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerchantOfVenice.txt/TheMerchantOfVenice.txt.5
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerchantOfVenice.txt/TheMerchantOfVenice.txt.7
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerchantOfVenice.txt/TheMerchantOfVenice.txt.0
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerchantOfVenice.txt/TheMerchantOfVenice.txt.4
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerchantOfVenice.txt/TheMerchantOfVenice.txt.3
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwoGentlemenOfVerona.txt/TheTwoGentlemenOfVerona.txt.6
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwoGentlemenOfVerona.txt/TheTwoGentlemenOfVerona.txt.1
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwoGentlemenOfVerona.txt/TheTwoGentlemenOfVerona.txt.4
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwoGentlemenOfVerona.txt/TheTwoGentlemenOfVerona.txt.2
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwoGentlemenOfVerona.txt/TheTwoGentlemenOfVerona.txt.0
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwoGentlemenOfVerona.txt/TheTwoGentlemenOfVerona.txt.5
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwoGentlemenOfVerona.txt/TheTwoGentlemenOfVerona.txt.3
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheComedyOfErrors.txt/TheComedyOfErrors.txt.5
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheComedyOfErrors.txt/TheComedyOfErrors.txt.4
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheComedyOfErrors.txt/TheComedyOfErrors.txt.0
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheComedyOfErrors.txt/TheComedyOfErrors.txt.1
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheComedyOfErrors.txt/TheComedyOfErrors.txt.3
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheComedyOfErrors.txt/TheComedyOfErrors.txt.2
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MeasureForMeasure.txt/MeasureForMeasure.txt.5
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MeasureForMeasure.txt/MeasureForMeasure.txt.8
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MeasureForMeasure.txt/MeasureForMeasure.txt.4
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MeasureForMeasure.txt/MeasureForMeasure.txt.1
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MeasureForMeasure.txt/MeasureForMeasure.txt.7
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MeasureForMeasure.txt/MeasureForMeasure.txt.3
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MeasureForMeasure.txt/MeasureForMeasure.txt.6
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MeasureForMeasure.txt/MeasureForMeasure.txt.0
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MeasureForMeasure.txt/MeasureForMeasure.txt.2
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MuchAdoAboutNothing.txt/MuchAdoAboutNothing.txt.3
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MuchAdoAboutNothing.txt/MuchAdoAboutNothing.txt.6
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MuchAdoAboutNothing.txt/MuchAdoAboutNothing.txt.1
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MuchAdoAboutNothing.txt/MuchAdoAboutNothing.txt.2
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MuchAdoAboutNothing.txt/MuchAdoAboutNothing.txt.5
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MuchAdoAboutNothing.txt/MuchAdoAboutNothing.txt.7
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MuchAdoAboutNothing.txt/MuchAdoAboutNothing.txt.4
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/MuchAdoAboutNothing.txt/MuchAdoAboutNothing.txt.0
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/All'sWellThatEndsWell.txt/All'sWellThatEndsWell.txt.2
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/All'sWellThatEndsWell.txt/All'sWellThatEndsWell.txt.3
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/All'sWellThatEndsWell.txt/All'sWellThatEndsWell.txt.6
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/All'sWellThatEndsWell.txt/All'sWellThatEndsWell.txt.4
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/All'sWellThatEndsWell.txt/All'sWellThatEndsWell.txt.5
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/All'sWellThatEndsWell.txt/All'sWellThatEndsWell.txt.8
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/All'sWellThatEndsWell.txt/All'sWellThatEndsWell.txt.1
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/All'sWellThatEndsWell.txt/All'sWellThatEndsWell.txt.7
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/All'sWellThatEndsWell.txt/All'sWellThatEndsWell.txt.0
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/AMidSummerNightsDream.txt/AMidSummerNightsDream.txt.1
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/AMidSummerNightsDream.txt/AMidSummerNightsDream.txt.0
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/AMidSummerNightsDream.txt/AMidSummerNightsDream.txt.2
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/AMidSummerNightsDream.txt/AMidSummerNightsDream.txt.3
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/AMidSummerNightsDream.txt/AMidSummerNightsDream.txt.5
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/AMidSummerNightsDream.txt/AMidSummerNightsDream.txt.4
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TamingOfTheShrew.txt/TamingOfTheShrew.txt.6
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TamingOfTheShrew.txt/TamingOfTheShrew.txt.0
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TamingOfTheShrew.txt/TamingOfTheShrew.txt.5
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TamingOfTheShrew.txt/TamingOfTheShrew.txt.4
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TamingOfTheShrew.txt/TamingOfTheShrew.txt.2
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TamingOfTheShrew.txt/TamingOfTheShrew.txt.7
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TamingOfTheShrew.txt/TamingOfTheShrew.txt.3
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TamingOfTheShrew.txt/TamingOfTheShrew.txt.1
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/AsYouLIkeIte.txt/AsYouLIkeIte.txt.6
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/AsYouLIkeIte.txt/AsYouLIkeIte.txt.1
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/AsYouLIkeIte.txt/AsYouLIkeIte.txt.3
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/AsYouLIkeIte.txt/AsYouLIkeIte.txt.2
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/AsYouLIkeIte.txt/AsYouLIkeIte.txt.5
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/AsYouLIkeIte.txt/AsYouLIkeIte.txt.4
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/AsYouLIkeIte.txt/AsYouLIkeIte.txt.7
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/AsYouLIkeIte.txt/AsYouLIkeIte.txt.0
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Cymbeline.txt/Cymbeline.txt.6
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Cymbeline.txt/Cymbeline.txt.2
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Cymbeline.txt/Cymbeline.txt.5
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Cymbeline.txt/Cymbeline.txt.0
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Cymbeline.txt/Cymbeline.txt.7
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Cymbeline.txt/Cymbeline.txt.9
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Cymbeline.txt/Cymbeline.txt.1
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Cymbeline.txt/Cymbeline.txt.8
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Cymbeline.txt/Cymbeline.txt.4
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/Cymbeline.txt/Cymbeline.txt.3
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/PericlesPrinceOfTyre.txt/PericlesPrinceOfTyre.txt.5
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/PericlesPrinceOfTyre.txt/PericlesPrinceOfTyre.txt.6
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/PericlesPrinceOfTyre.txt/PericlesPrinceOfTyre.txt.2
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/PericlesPrinceOfTyre.txt/PericlesPrinceOfTyre.txt.1
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/PericlesPrinceOfTyre.txt/PericlesPrinceOfTyre.txt.4
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/PericlesPrinceOfTyre.txt/PericlesPrinceOfTyre.txt.3
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/PericlesPrinceOfTyre.txt/PericlesPrinceOfTyre.txt.0
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerryWivesOfWindsor.txt/TheMerryWivesOfWindsor.txt.8
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerryWivesOfWindsor.txt/TheMerryWivesOfWindsor.txt.5
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerryWivesOfWindsor.txt/TheMerryWivesOfWindsor.txt.0
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerryWivesOfWindsor.txt/TheMerryWivesOfWindsor.txt.2
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerryWivesOfWindsor.txt/TheMerryWivesOfWindsor.txt.7
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerryWivesOfWindsor.txt/TheMerryWivesOfWindsor.txt.1
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerryWivesOfWindsor.txt/TheMerryWivesOfWindsor.txt.3
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerryWivesOfWindsor.txt/TheMerryWivesOfWindsor.txt.4
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheMerryWivesOfWindsor.txt/TheMerryWivesOfWindsor.txt.6
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTempest.txt/TheTempest.txt.6
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTempest.txt/TheTempest.txt.2
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTempest.txt/TheTempest.txt.0
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTempest.txt/TheTempest.txt.5
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTempest.txt/TheTempest.txt.4
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTempest.txt/TheTempest.txt.3
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTempest.txt/TheTempest.txt.1
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwelthNight.txt/TheTwelthNight.txt.3
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwelthNight.txt/TheTwelthNight.txt.1
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwelthNight.txt/TheTwelthNight.txt.6
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwelthNight.txt/TheTwelthNight.txt.0
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwelthNight.txt/TheTwelthNight.txt.4
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwelthNight.txt/TheTwelthNight.txt.2
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwelthNight.txt/TheTwelthNight.txt.7
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TheTwelthNight.txt/TheTwelthNight.txt.5
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TroilusAndCressida .txt/TroilusAndCressida .txt.9
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TroilusAndCressida .txt/TroilusAndCressida .txt.8
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TroilusAndCressida .txt/TroilusAndCressida .txt.2
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TroilusAndCressida .txt/TroilusAndCressida .txt.10
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TroilusAndCressida .txt/TroilusAndCressida .txt.7
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TroilusAndCressida .txt/TroilusAndCressida .txt.5
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TroilusAndCressida .txt/TroilusAndCressida .txt.0
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TroilusAndCressida .txt/TroilusAndCressida .txt.1
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TroilusAndCressida .txt/TroilusAndCressida .txt.4
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TroilusAndCressida .txt/TroilusAndCressida .txt.6
+Shuffling file - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_mapper/TroilusAndCressida .txt/TroilusAndCressida .txt.3
+Operation: shuffler
+Proceeding to write Shuffler data output to file system....
+Created the shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt/
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt/Love'sLabourLost.txt.7
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt/Love'sLabourLost.txt.3
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt/Love'sLabourLost.txt.4
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt/Love'sLabourLost.txt.0
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt/Love'sLabourLost.txt.8
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt/Love'sLabourLost.txt.6
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt/Love'sLabourLost.txt.5
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt/Love'sLabourLost.txt.2
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt/Love'sLabourLost.txt.1
+Created the shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt/
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt/Winter'sTale.txt.5
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt/Winter'sTale.txt.6
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt/Winter'sTale.txt.8
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt/Winter'sTale.txt.4
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt/Winter'sTale.txt.1
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt/Winter'sTale.txt.3
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt/Winter'sTale.txt.0
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt/Winter'sTale.txt.2
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt/Winter'sTale.txt.7
+Created the shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerchantOfVenice.txt/
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerchantOfVenice.txt/TheMerchantOfVenice.txt.2
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerchantOfVenice.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerchantOfVenice.txt/TheMerchantOfVenice.txt.1
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerchantOfVenice.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerchantOfVenice.txt/TheMerchantOfVenice.txt.6
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerchantOfVenice.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerchantOfVenice.txt/TheMerchantOfVenice.txt.5
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerchantOfVenice.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerchantOfVenice.txt/TheMerchantOfVenice.txt.7
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerchantOfVenice.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerchantOfVenice.txt/TheMerchantOfVenice.txt.0
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerchantOfVenice.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerchantOfVenice.txt/TheMerchantOfVenice.txt.4
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerchantOfVenice.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerchantOfVenice.txt/TheMerchantOfVenice.txt.3
+Created the shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwoGentlemenOfVerona.txt/
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwoGentlemenOfVerona.txt/TheTwoGentlemenOfVerona.txt.6
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwoGentlemenOfVerona.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwoGentlemenOfVerona.txt/TheTwoGentlemenOfVerona.txt.1
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwoGentlemenOfVerona.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwoGentlemenOfVerona.txt/TheTwoGentlemenOfVerona.txt.4
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwoGentlemenOfVerona.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwoGentlemenOfVerona.txt/TheTwoGentlemenOfVerona.txt.2
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwoGentlemenOfVerona.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwoGentlemenOfVerona.txt/TheTwoGentlemenOfVerona.txt.0
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwoGentlemenOfVerona.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwoGentlemenOfVerona.txt/TheTwoGentlemenOfVerona.txt.5
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwoGentlemenOfVerona.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwoGentlemenOfVerona.txt/TheTwoGentlemenOfVerona.txt.3
+Created the shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheComedyOfErrors.txt/
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheComedyOfErrors.txt/TheComedyOfErrors.txt.5
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheComedyOfErrors.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheComedyOfErrors.txt/TheComedyOfErrors.txt.4
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheComedyOfErrors.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheComedyOfErrors.txt/TheComedyOfErrors.txt.0
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheComedyOfErrors.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheComedyOfErrors.txt/TheComedyOfErrors.txt.1
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheComedyOfErrors.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheComedyOfErrors.txt/TheComedyOfErrors.txt.3
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheComedyOfErrors.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheComedyOfErrors.txt/TheComedyOfErrors.txt.2
+Created the shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt/
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt/MeasureForMeasure.txt.5
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt/MeasureForMeasure.txt.8
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt/MeasureForMeasure.txt.4
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt/MeasureForMeasure.txt.1
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt/MeasureForMeasure.txt.7
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt/MeasureForMeasure.txt.3
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt/MeasureForMeasure.txt.6
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt/MeasureForMeasure.txt.0
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt/MeasureForMeasure.txt.2
+Created the shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MuchAdoAboutNothing.txt/
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MuchAdoAboutNothing.txt/MuchAdoAboutNothing.txt.3
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MuchAdoAboutNothing.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MuchAdoAboutNothing.txt/MuchAdoAboutNothing.txt.6
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MuchAdoAboutNothing.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MuchAdoAboutNothing.txt/MuchAdoAboutNothing.txt.1
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MuchAdoAboutNothing.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MuchAdoAboutNothing.txt/MuchAdoAboutNothing.txt.2
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MuchAdoAboutNothing.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MuchAdoAboutNothing.txt/MuchAdoAboutNothing.txt.5
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MuchAdoAboutNothing.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MuchAdoAboutNothing.txt/MuchAdoAboutNothing.txt.7
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MuchAdoAboutNothing.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MuchAdoAboutNothing.txt/MuchAdoAboutNothing.txt.4
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MuchAdoAboutNothing.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MuchAdoAboutNothing.txt/MuchAdoAboutNothing.txt.0
+Created the shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt/
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt/All'sWellThatEndsWell.txt.2
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt/All'sWellThatEndsWell.txt.3
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt/All'sWellThatEndsWell.txt.6
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt/All'sWellThatEndsWell.txt.4
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt/All'sWellThatEndsWell.txt.5
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt/All'sWellThatEndsWell.txt.8
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt/All'sWellThatEndsWell.txt.1
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt/All'sWellThatEndsWell.txt.7
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt/All'sWellThatEndsWell.txt.0
+Created the shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AMidSummerNightsDream.txt/
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AMidSummerNightsDream.txt/AMidSummerNightsDream.txt.1
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AMidSummerNightsDream.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AMidSummerNightsDream.txt/AMidSummerNightsDream.txt.0
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AMidSummerNightsDream.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AMidSummerNightsDream.txt/AMidSummerNightsDream.txt.2
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AMidSummerNightsDream.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AMidSummerNightsDream.txt/AMidSummerNightsDream.txt.3
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AMidSummerNightsDream.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AMidSummerNightsDream.txt/AMidSummerNightsDream.txt.5
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AMidSummerNightsDream.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AMidSummerNightsDream.txt/AMidSummerNightsDream.txt.4
+Created the shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TamingOfTheShrew.txt/
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TamingOfTheShrew.txt/TamingOfTheShrew.txt.6
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TamingOfTheShrew.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TamingOfTheShrew.txt/TamingOfTheShrew.txt.0
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TamingOfTheShrew.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TamingOfTheShrew.txt/TamingOfTheShrew.txt.5
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TamingOfTheShrew.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TamingOfTheShrew.txt/TamingOfTheShrew.txt.4
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TamingOfTheShrew.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TamingOfTheShrew.txt/TamingOfTheShrew.txt.2
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TamingOfTheShrew.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TamingOfTheShrew.txt/TamingOfTheShrew.txt.7
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TamingOfTheShrew.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TamingOfTheShrew.txt/TamingOfTheShrew.txt.3
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TamingOfTheShrew.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TamingOfTheShrew.txt/TamingOfTheShrew.txt.1
+Created the shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AsYouLIkeIte.txt/
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AsYouLIkeIte.txt/AsYouLIkeIte.txt.6
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AsYouLIkeIte.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AsYouLIkeIte.txt/AsYouLIkeIte.txt.1
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AsYouLIkeIte.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AsYouLIkeIte.txt/AsYouLIkeIte.txt.3
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AsYouLIkeIte.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AsYouLIkeIte.txt/AsYouLIkeIte.txt.2
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AsYouLIkeIte.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AsYouLIkeIte.txt/AsYouLIkeIte.txt.5
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AsYouLIkeIte.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AsYouLIkeIte.txt/AsYouLIkeIte.txt.4
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AsYouLIkeIte.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AsYouLIkeIte.txt/AsYouLIkeIte.txt.7
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AsYouLIkeIte.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AsYouLIkeIte.txt/AsYouLIkeIte.txt.0
+Created the shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/Cymbeline.txt.6
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/Cymbeline.txt.2
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/Cymbeline.txt.5
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/Cymbeline.txt.0
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/Cymbeline.txt.7
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/Cymbeline.txt.9
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/Cymbeline.txt.1
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/Cymbeline.txt.8
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/Cymbeline.txt.4
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt/Cymbeline.txt.3
+Created the shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/PericlesPrinceOfTyre.txt/
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/PericlesPrinceOfTyre.txt/PericlesPrinceOfTyre.txt.5
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/PericlesPrinceOfTyre.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/PericlesPrinceOfTyre.txt/PericlesPrinceOfTyre.txt.6
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/PericlesPrinceOfTyre.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/PericlesPrinceOfTyre.txt/PericlesPrinceOfTyre.txt.2
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/PericlesPrinceOfTyre.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/PericlesPrinceOfTyre.txt/PericlesPrinceOfTyre.txt.1
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/PericlesPrinceOfTyre.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/PericlesPrinceOfTyre.txt/PericlesPrinceOfTyre.txt.4
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/PericlesPrinceOfTyre.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/PericlesPrinceOfTyre.txt/PericlesPrinceOfTyre.txt.3
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/PericlesPrinceOfTyre.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/PericlesPrinceOfTyre.txt/PericlesPrinceOfTyre.txt.0
+Created the shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt/
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt/TheMerryWivesOfWindsor.txt.8
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt/TheMerryWivesOfWindsor.txt.5
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt/TheMerryWivesOfWindsor.txt.0
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt/TheMerryWivesOfWindsor.txt.2
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt/TheMerryWivesOfWindsor.txt.7
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt/TheMerryWivesOfWindsor.txt.1
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt/TheMerryWivesOfWindsor.txt.3
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt/TheMerryWivesOfWindsor.txt.4
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt/TheMerryWivesOfWindsor.txt.6
+Created the shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTempest.txt/
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTempest.txt/TheTempest.txt.6
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTempest.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTempest.txt/TheTempest.txt.2
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTempest.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTempest.txt/TheTempest.txt.0
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTempest.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTempest.txt/TheTempest.txt.5
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTempest.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTempest.txt/TheTempest.txt.4
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTempest.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTempest.txt/TheTempest.txt.3
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTempest.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTempest.txt/TheTempest.txt.1
+Created the shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwelthNight.txt/
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwelthNight.txt/TheTwelthNight.txt.3
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwelthNight.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwelthNight.txt/TheTwelthNight.txt.1
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwelthNight.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwelthNight.txt/TheTwelthNight.txt.6
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwelthNight.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwelthNight.txt/TheTwelthNight.txt.0
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwelthNight.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwelthNight.txt/TheTwelthNight.txt.4
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwelthNight.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwelthNight.txt/TheTwelthNight.txt.2
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwelthNight.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwelthNight.txt/TheTwelthNight.txt.7
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwelthNight.txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwelthNight.txt/TheTwelthNight.txt.5
+Created the shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/TroilusAndCressida .txt.9
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/TroilusAndCressida .txt.8
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/TroilusAndCressida .txt.2
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/TroilusAndCressida .txt.10
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/TroilusAndCressida .txt.7
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/TroilusAndCressida .txt.5
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/TroilusAndCressida .txt.0
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/TroilusAndCressida .txt.1
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/TroilusAndCressida .txt.4
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/TroilusAndCressida .txt.6
+The shuffler directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt/TroilusAndCressida .txt.3
+Shuffled results have been written to: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler
+Reducing directory path - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Love'sLabourLost.txt
+Reducing directory path - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Winter'sTale.txt
+Reducing directory path - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerchantOfVenice.txt
+Reducing directory path - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwoGentlemenOfVerona.txt
+Reducing directory path - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheComedyOfErrors.txt
+Reducing directory path - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MeasureForMeasure.txt
+Reducing directory path - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/MuchAdoAboutNothing.txt
+Reducing directory path - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/All'sWellThatEndsWell.txt
+Reducing directory path - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AMidSummerNightsDream.txt
+Reducing directory path - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TamingOfTheShrew.txt
+Reducing directory path - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/AsYouLIkeIte.txt
+Reducing directory path - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/Cymbeline.txt
+Reducing directory path - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/PericlesPrinceOfTyre.txt
+Reducing directory path - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheMerryWivesOfWindsor.txt
+Reducing directory path - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTempest.txt
+Reducing directory path - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TheTwelthNight.txt
+Reducing directory path - /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/temp_shuffler/TroilusAndCressida .txt
+Operation: reducer
+Proceeding to write reducer data output to file system....
+Created the reducer directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/Love'sLabourLost.txt
+The reducer directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/Winter'sTale.txt
+The reducer directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/TheMerchantOfVenice.txt
+The reducer directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/TheTwoGentlemenOfVerona.txt
+The reducer directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/TheComedyOfErrors.txt
+The reducer directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/MeasureForMeasure.txt
+The reducer directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/MuchAdoAboutNothing.txt
+The reducer directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/All'sWellThatEndsWell.txt
+The reducer directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/AMidSummerNightsDream.txt
+The reducer directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/TamingOfTheShrew.txt
+The reducer directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/AsYouLIkeIte.txt
+The reducer directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/Cymbeline.txt
+The reducer directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/PericlesPrinceOfTyre.txt
+The reducer directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/TheMerryWivesOfWindsor.txt
+The reducer directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/TheTempest.txt
+The reducer directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/TheTwelthNight.txt
+The reducer directory: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/ already exists! 
+Proceeding to create /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output/TroilusAndCressida .txt
+Final results have been written to: /home/sakkammadam/Documents/syr/cse687/projects/input_files/shakespeare_libqa/final_output
